@@ -26,7 +26,7 @@ function mooUpperCase() {
   
     const words = text.split(" ");
     const lastWord = words.pop();
-    const modifiedText = `"${words.join(" ")} ${lastWord}" -Moo`;
+    const modifiedText = `${words.join(" ")} ${lastWord} -Moo`;
     document.getElementById("input-text1").value = modifiedText.toUpperCase();  
   }
   
